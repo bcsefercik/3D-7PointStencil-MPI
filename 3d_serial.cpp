@@ -4,8 +4,8 @@
 #include <sys/time.h>
 
 #define MASTER 0
-#define OUTER 1.3
-#define INNER -1.3
+#define OUTER 1.0
+#define INNER -1.0
 
 void usage(char **argv);
 void initValues(double* array, int width, int height, int depth, double inner_temp, double outer_temp);

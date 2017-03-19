@@ -12,13 +12,13 @@ Implementation of a parallel algorithm using 7 point stencil computation is perf
 
 ## Usage
 
-$ mpirun -np <p> ./slice <width> <height> <depth> <iteration>
+$ mpirun -np "p" ./slice "width" "height" "depth" "iteration"
 where: 
-- <p>: number of processees
-- <width>: width of the 3d structure
-- <height>: height of the 3d structure
-- <depth>: depth of the 3d structure
-- (<width>+2) must be divisible by <p> and result must be bigger than 2
+- "p": number of processees
+- "width": width of the 3d structure
+- "height": height of the 3d structure
+- "depth": depth of the 3d structure
+- ("width"+2) must be divisible by "p" and result must be bigger than 2
 
 e.g. $ mpirun -np 4 ./slice 126 62 62 100
 	 $ ./serial 126 62 62 100

@@ -1,6 +1,6 @@
 # Parallel Computation of 7-Point Stencil via 3D Decomposition - MPI
 
-## Descrition
+## Description
 
 Implementation of a parallel algorithm using 7 point stencil computation is performed using MPI.
 
